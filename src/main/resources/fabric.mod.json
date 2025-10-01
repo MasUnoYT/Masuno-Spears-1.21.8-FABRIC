@@ -1,0 +1,40 @@
+{
+	"schemaVersion": 1,
+	"id": "spear",
+	"version": "1.0.0",
+	"name": "MasUN0?s Spear",
+	"description": "Spear Mod by MasUN0!",
+	"authors": [
+		"MasUN0"
+	],
+	"contact": {
+		"homepage": "https://www.youtube.com/@masun0",
+		"sources": "https://discord.gg/sx83X3ccSA"
+	},
+	"license": "CC0-1.0",
+	"icon": "assets/spear/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"net.masuno.SpearBackport"
+		],
+		"client": [
+			"net.masuno.SpearBackportClient"
+		],
+		"fabric-datagen": [
+			"net.masuno.SpearBackportDataGenerator"
+		]
+	},
+	"mixins": [
+		"spear.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.17.2",
+		"minecraft": "~1.21.8",
+		"java": ">=21",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}

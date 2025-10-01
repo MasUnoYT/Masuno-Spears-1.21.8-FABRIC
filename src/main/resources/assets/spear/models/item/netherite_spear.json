@@ -1,0 +1,6 @@
+{
+  "parent": "spear:item/spear",
+  "textures": {
+    "layer0": "spear:item/netherite_spear"
+  }
+}

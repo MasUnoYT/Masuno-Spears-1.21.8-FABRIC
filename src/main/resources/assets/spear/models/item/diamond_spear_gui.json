@@ -1,0 +1,6 @@
+{
+  "parent": "spear:item/spear_handheld",
+  "textures": {
+    "layer0": "spear:item/diamond_spear"
+  }
+}

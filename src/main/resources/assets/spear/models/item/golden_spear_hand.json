@@ -1,0 +1,6 @@
+{
+  "parent": "spear:item/spear_hand",
+  "textures": {
+    "layer0": "spear:item/golden_spear_big"
+  }
+}

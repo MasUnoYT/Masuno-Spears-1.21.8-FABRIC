@@ -1,0 +1,120 @@
+{
+  "model": {
+    "type": "minecraft:select",
+    "property": "minecraft:display_context",
+    "cases": [
+      {
+        "when": [
+          "gui",
+          "ground",
+          "fixed"],
+        "model": {
+          "type": "minecraft:model",
+          "model": "spear:item/wooden_spear"
+        }
+      }
+    ],
+    "fallback": {
+      "type": "minecraft:range_dispatch",
+      "property": "minecraft:use_duration",
+      "scale": 0.5,
+      "entries": [
+        {
+          "threshold": 3,
+          "model": {
+            "type": "minecraft:model",
+            "model": "spear:item/wooden_spear_up"
+          }
+        },
+        {
+          "threshold": 4,
+          "model": {
+            "type": "minecraft:model",
+            "model": "spear:item/wooden_spear_holding"
+          }
+        },
+        {
+          "threshold": 30,
+          "model": {
+            "type": "minecraft:model",
+            "model": "spear:item/wooden_spear_tired_0"
+          }
+        },
+        {
+          "threshold": 33,
+          "model": {
+            "type": "minecraft:model",
+            "model": "spear:item/wooden_spear_tired_1"
+          }
+        },
+        {
+          "threshold": 36,
+          "model": {
+            "type": "minecraft:model",
+            "model": "spear:item/wooden_spear_tired_2"
+          }
+        },
+        {
+          "threshold": 39,
+          "model": {
+            "type": "minecraft:model",
+            "model": "spear:item/wooden_spear_tired_1"
+          }
+        },
+        {
+          "threshold": 42,
+          "model": {
+            "type": "minecraft:model",
+            "model": "spear:item/wooden_spear_tired_0"
+          }
+        },
+        {
+          "threshold": 45,
+          "model": {
+            "type": "minecraft:model",
+            "model": "spear:item/wooden_spear_tired_1"
+          }
+        },
+        {
+          "threshold": 48,
+          "model": {
+            "type": "minecraft:model",
+            "model": "spear:item/wooden_spear_tired_2"
+          }
+        },
+        {
+          "threshold": 51,
+          "model": {
+            "type": "minecraft:model",
+            "model": "spear:item/wooden_spear_tired_1"
+          }
+        },
+        {
+          "threshold": 54,
+          "model": {
+            "type": "minecraft:model",
+            "model": "spear:item/wooden_spear_tired_0"
+          }
+        },
+        {
+          "threshold": 57,
+          "model": {
+            "type": "minecraft:model",
+            "model": "spear:item/wooden_spear_tired_1"
+          }
+        },
+        {
+          "threshold": 60,
+          "model": {
+            "type": "minecraft:model",
+            "model": "spear:item/wooden_spear_tired_down"
+          }
+        }
+      ],
+      "fallback": {
+        "type": "minecraft:model",
+        "model": "spear:item/wooden_spear_hand"
+      }
+    }
+  }
+}
